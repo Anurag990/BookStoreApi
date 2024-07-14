@@ -1,0 +1,1 @@
+package com.Anurag.project.Api.BookStore.Repositries;import com.Anurag.project.Api.BookStore.Entites.Book;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface BookRepository extends JpaRepository<Book,Integer> {}
